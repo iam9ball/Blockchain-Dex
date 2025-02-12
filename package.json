@@ -3,10 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "concurrently \"node server/server.js\" \"next dev\"",
-    "build": "concurrently \"node server/server.js\" \"next build\"",
-    "start": "concurrently \"node server/server.js\" \"next start\"",
-    "lint": "concurrently \"node server/server.js\" \"next lint\""
+    "dev": "node server/server.js & next dev",
+    "build": "next build",
+    "start": "node server/server.js & next start"
   },
   "dependencies": {
     "@chakra-ui/icons": "^2.0.19",
