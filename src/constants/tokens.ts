@@ -3,8 +3,8 @@
  */
 
 const tokens = {
-  mike: {
-    symbol: "MKT",
+  premium: {
+    symbol: "PMT",
     address: {
       56: "0xf542ac438cf8cd4477a1fc7ab88adda5426d55ed",
       97: "0x6C62F8a8deDd262beA9351C9bCAA56ADC558d05D",

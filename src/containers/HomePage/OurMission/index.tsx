@@ -47,7 +47,7 @@ const OurMission: React.FC = () => {
             [OUR MISSION]
           </Typography>
           <Typography type="headline2" color="text.primary">
-            AI-Powered Innovation: Mike Token's Memecoin Revolution
+            AI-Powered Innovation: premium Token's Memecoin Revolution
           </Typography>
           <Typography mt="24px" type="paragraph1" color="text.read">
             Our mission is to democratize access to the most advanced blockchain
@@ -58,7 +58,7 @@ const OurMission: React.FC = () => {
             mt="64px"
             w={{
               base: "auto",
-              sm: '350px',
+              sm: "350px",
               lg: "450px",
               xl: "auto",
             }}

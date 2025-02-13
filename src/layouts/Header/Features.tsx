@@ -15,7 +15,7 @@ export const features = [
   },
   {
     name: "Swap",
-    path: "/swap",
+    path: "/",
     icons: "swap-icons",
   },
   {
@@ -35,7 +35,7 @@ export const features = [
   },
   {
     name: "Docs",
-    path: "https://miketoken-io.gitbook.io/miketoken.io/",
+    path: "/",
     icons: "docs",
     isExternal: true,
   },

@@ -21,7 +21,7 @@ export const useMKTPriceDetail = (stakingContractAddress:any) => {
     },
   ];
   const { data: results } = useSWR(
-    ["mkt-price-detail", (contracts.gloryPool as any)[chainId], chainId],
+    ["PMT-price-detail", (contracts.gloryPool as any)[chainId], chainId],
     async () => {
       const res = await multicallv2({
         abi: stakingAbi,

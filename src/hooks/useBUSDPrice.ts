@@ -8,7 +8,7 @@ import {
   Token,
   WBNB,
 } from "@pancakeswap/sdk";
-import { BUSD, MKT } from "@src/configs/tokens";
+import { BUSD, PMT } from "@src/configs/tokens";
 import getLpAddress from "@src/utils/getLpAddress";
 import useSWR from "swr";
 import { useChainId, useProvider } from "wagmi";
@@ -59,7 +59,7 @@ export const useMKTPrice = (): any => {
   const isTestnet = chainId === 97;
   // Return bsc testnet cake if chain is testnet
   const wbnb: Token = isTestnet ? WBNB[ChainId.BSC_TESTNET] : WBNB[ChainId.BSC];
-  const mktRatePerBNB = usePriceByPairs(wbnb, (MKT as any)[chainId]) as any;
+  const mktRatePerBNB = usePriceByPairs(wbnb, (PMT as any)[chainId]) as any;
   const { data: bnbPrice } = useSWR(["bnbPrice"], async () => {
     const data = await fetch(
       "https://www.binance.com/api/v3/ticker/price?symbol=BNBUSDT"
@@ -83,15 +83,15 @@ export const useMKTBNBPrice = () => {
   // Return bsc testnet cake if chain is testnet
   const wbnb: Token = isTestnet ? WBNB[ChainId.BSC_TESTNET] : WBNB[ChainId.BSC];
   const provider = useProvider({ chainId });
-  const pairAddress = getLpAddress(wbnb as any, (MKT as any)[chainId] as any);
+  const pairAddress = getLpAddress(wbnb as any, (PMT as any)[chainId] as any);
   const pairContract = usePairContract(pairAddress as any);
 
   const { data: totalWBNB } = useSWR(
     wbnb &&
-      (MKT as any)[chainId] && [
+      (PMT as any)[chainId] && [
         "pair-price",
         wbnb,
-        (MKT as any)[chainId],
+        (PMT as any)[chainId],
         pairAddress,
       ],
     async () => {

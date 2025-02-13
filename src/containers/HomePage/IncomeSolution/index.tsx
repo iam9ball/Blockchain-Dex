@@ -79,7 +79,7 @@ const IncomeSolution = () => {
           lineHeight={"64px"}
           color="text.primary"
         >
-          Not just a Memecoin, Mike is more...{" "}
+          Not just a Memecoin, premium is more...{" "}
           {/* <Typography type="headline1" as="span" color="text.success">
             CoinAI
           </Typography> */}

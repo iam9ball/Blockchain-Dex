@@ -5,12 +5,12 @@ import { BUSD_BSC, CAKE_MAINNET, USDT_BSC } from "./common";
 import { ChainId } from "@src/configs/web3/chains";
 
 export const bscTokens = {
-  mkt: new ERC20Token(
+  PMT: new ERC20Token(
     ChainId.BSC,
     "0xf542ac438cf8cd4477a1fc7ab88adda5426d55ed",
     18,
-    "MKT",
-    "Mike Token",
+    "PMT",
+    "premium Token",
     "https://miketoken.io/"
   ),
   wbnb: WBNB[ChainId.BSC],

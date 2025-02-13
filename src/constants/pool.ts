@@ -20,11 +20,11 @@ export interface ICardPool {
 
 export const listPool: ICardPool[] = [
   //     {
-  //     title: 'MKT Pool',
-  //     symbol: 'MKT',
+  //     title: 'PMT Pool',
+  //     symbol: 'PMT',
   //     tokenAddress: contracts.usdt,
   //     contractStaking: contracts.gloryPool,
-  //     image: '/images/logo-pool-mkt.svg',
+  //     image: '/images/logo-pool-PMT.svg',
   //     background: 'radial-gradient(38.94% 41.23% at -1.91% 32.86%, #7B5532 0%, rgba(119, 83, 50, 0.00) 100%), radial-gradient(122.59% 128.68% at 16.22% 0.00%, #14884A 0%, #113A2B 28.28%, #151616 56.99%)',
   // },
   {

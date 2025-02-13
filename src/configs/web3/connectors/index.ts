@@ -26,7 +26,7 @@ export const injectedConnector = new InjectedConnector({
 export const coinbaseConnector = new CoinbaseWalletConnector({
   chains,
   options: {
-    appName: "Mike meme",
+    appName: "premium meme",
     appLogoUrl: "",
   },
 });

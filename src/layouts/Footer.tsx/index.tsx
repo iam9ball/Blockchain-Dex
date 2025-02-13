@@ -36,7 +36,7 @@ const features = [
 export const Footer = () => {
   const router = useRouter();
   const handleBuyMkt = () => {
-    router.push("/swap");
+    router.push("/");
   };
   return (
     <Flex
@@ -104,7 +104,7 @@ export const Footer = () => {
               _active={{}}
               onClick={handleBuyMkt}
             >
-              Buy MKT
+              Buy PMT
             </Button>
           </Flex>
           <Flex
@@ -160,8 +160,8 @@ export const Footer = () => {
         </Flex>
         <Divider color={"#222736"} my={"1.5em"} />
         <Typography color={"text.secondary"} type="body2" textAlign={"center"}>
-          Disclaimer: Mike Token project is not related to the Monsters movies.
-          We simply admire the characters.
+          Disclaimer: premium Token project is not related to the Monsters
+          movies. We simply admire the characters.
         </Typography>
         <Typography color={"text.secondary"} type="body2" textAlign={"center"}>
           Copyright © 2023 MikeToken

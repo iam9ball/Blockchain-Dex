@@ -15,7 +15,7 @@ const NFTPage: React.FC = () => {
   };
   const router = useRouter();
   const handleBuyMkt = () => {
-    router.push("/swap");
+    router.push("/");
   };
   return (
     <Flex direction={"column"} position={"relative"}>

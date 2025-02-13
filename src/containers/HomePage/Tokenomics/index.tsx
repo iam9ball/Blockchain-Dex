@@ -109,8 +109,8 @@ const Tokenomics: React.FC = () => {
           xl: "60px",
           "2xl": "80px",
         }}
-        border='2px solid'
-        borderColor='bg.secondary'
+        border="2px solid"
+        borderColor="bg.secondary"
         borderRadius={"12px"}
         background={
           "radial-gradient(213.29% 109.87% at 8.93% -0.00%, rgba(36, 100, 125, 0.50) 0%, rgba(28, 34, 37, 0.50) 34.76%, rgba(19, 19, 20, 0.50) 63.42%)"
@@ -192,8 +192,8 @@ const Tokenomics: React.FC = () => {
             [TOKENOMICS]
           </Typography>
           <Typography mb="36px" mt="24px" type="paragraph1" color={"text.read"}>
-            Discover Mike Tokenomics: Unveiling our ecosystem's potential. From
-            token allocation to liquidity strategies and rewarding
+            Discover premium Tokenomics: Unveiling our ecosystem's potential.
+            From token allocation to liquidity strategies and rewarding
             opportunities, we revolutionize the blockchain landscape. Join us as
             we shape the future together.
           </Typography>

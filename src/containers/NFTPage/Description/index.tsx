@@ -4,9 +4,8 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 
 const Description = () => {
-  
   const router = useRouter();
-  
+
   return (
     <Flex
       w="100%"
@@ -68,24 +67,27 @@ const Description = () => {
         priority
       />
       {/* <Image src=""/> */}
-      <Flex maxW={600} flexDirection={"column"} className="xs:mb-[28px] xl:mb-[0px]">
+      <Flex
+        maxW={600}
+        flexDirection={"column"}
+        className="xs:mb-[28px] xl:mb-[0px]"
+      >
         <Typography
           type="headline1"
           as="span"
           lineHeight={"64px"}
           color="text.primary"
         >
-          Welcome to the captivating world of Mike Token NFTs{" "}
+          Welcome to the captivating world of premium Token NFTs{" "}
           {/* <Typography type="headline1" as="span" color="text.success">
             CoinAI
           </Typography> */}
         </Typography>
         <Typography type="headline4" as="span" color="text.success">
-        Generation Prime  {" "}
+          Generation Prime{" "}
           <Typography type="headline4" as="span" color="text.success">
             {" "}
             &
-            
           </Typography>
           <Typography type="headline4" as="span" color="text.success">
             {" "}
@@ -93,9 +95,13 @@ const Description = () => {
           </Typography>
         </Typography>
         <Typography type="body1" color="text.read" mt="8px">
-        These unique digital assets open the doors to our exclusive USDT Yield pools while providing exceptional opportunities for passive income. As a proud holder of these NFTs, you gain access to lucrative APRs, unlocking the potential for substantial returns on your investments. Immerse yourself in the power of blockchain technology and join us on this extraordinary journey towards a more prosperous financial future.
+          These unique digital assets open the doors to our exclusive USDT Yield
+          pools while providing exceptional opportunities for passive income. As
+          a proud holder of these NFTs, you gain access to lucrative APRs,
+          unlocking the potential for substantial returns on your investments.
+          Immerse yourself in the power of blockchain technology and join us on
+          this extraordinary journey towards a more prosperous financial future.
         </Typography>
-        
       </Flex>
       <Flex
         sx={{
@@ -121,7 +127,6 @@ const Description = () => {
           src="/images/nft_description.png"
           width={630}
           height={560}
-          
           alt="nft_description"
           style={{
             width: "100%",
@@ -131,7 +136,6 @@ const Description = () => {
           priority
         />
       </Flex>
-      
     </Flex>
   );
 };

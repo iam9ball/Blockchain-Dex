@@ -8,25 +8,28 @@ export const redirect = [
   {
     image: "twitter",
     title: "Twitter",
-    link: "https://twitter.com/MikeTokenio",
+    link: "/",
   },
-  { image: "telegram", title: "Telegram", link: "https://t.me/MikeToken" },
+  { image: "telegram", title: "Telegram", link: "/" },
   {
     image: "youtobe",
     title: "Youtube",
-    link: "https://www.youtube.com/channel/UCmDNLcrEK4p2dv888-HjhKA",
+    link: "/",
   },
   {
     image: "tiktok",
     title: "Tiktok",
-    link: "https://www.tiktok.com/@miketokenofficial",
+    link: "/",
   },
 ];
 
 const Community: React.FC = () => {
   return (
     <>
-      <section id="social" className="max-w-[1200px] mx-auto py-[112px] max-lg:px-[16px] max-2xl:px-[24px]">
+      <section
+        id="social"
+        className="max-w-[1200px] mx-auto py-[112px] max-lg:px-[16px] max-2xl:px-[24px]"
+      >
         <div className="flex max-xl:w-full max-xl:flex-col-reverse">
           <Grid
             className="w-full max-xl:w-full xl:w-1/2 max-xl:mt-[32px]"
@@ -49,7 +52,10 @@ const Community: React.FC = () => {
                 <GridItem key={index} area={e.image}>
                   <Flex w={"100%"}>
                     <Link href={e.link} className="w-full" target="_blank">
-                      <div className="flex px-6 py-4 w-4/5 max max-xl:w-full rounded-[8px] item-redirect" style={{ wordBreak: "break-word" }}>
+                      <div
+                        className="flex px-6 py-4 w-4/5 max max-xl:w-full rounded-[8px] item-redirect"
+                        style={{ wordBreak: "break-word" }}
+                      >
                         <div className="max-md:min-w-[64px] min-w-[88px] w-2/12">
                           <Image
                             src={`/assets/images/icons/${e.image}.svg`}
@@ -92,7 +98,7 @@ const Community: React.FC = () => {
             </Typography>
             <Typography type="paragraph1" className="text-read">
               Stay connected on social media for updates, announcements, and
-              engaging discussions as we revolutionize meme tokens with Mike
+              engaging discussions as we revolutionize meme tokens with premium
               Token! Join our exciting journey!
             </Typography>
           </div>

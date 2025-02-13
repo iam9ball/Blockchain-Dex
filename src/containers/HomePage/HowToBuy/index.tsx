@@ -8,7 +8,7 @@ import React from "react";
 const HowToBuy: React.FC = () => {
   const router = useRouter();
   const handleBuyMkt = () => {
-    router.push("/swap");
+    router.push("/");
   };
   return (
     <Flex

@@ -288,7 +288,7 @@ export function useDefaultsFromURLSearch():
 
   useEffect(() => {
     if (!chainId || !native) return;
-    const mikeTokenAddress = getAddress(tokens.mike.address, chainId);
+    const mikeTokenAddress = getAddress(tokens.premium.address, chainId);
     const parsed = queryParametersToSwapState(query, "bnb", mikeTokenAddress);
 
     dispatch(

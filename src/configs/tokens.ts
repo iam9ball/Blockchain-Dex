@@ -10,8 +10,8 @@ export const getTokenBySymbol = (symbol: string, chainId = 56) => {
 
 export const tokens = [
   {
-    name: "Mike",
-    symbol: "MKT",
+    name: "premium",
+    symbol: "PMT",
     logoUrl:
       "https://photos.pinksale.finance/file/pinksale-logo-upload/1687352048919-2c4552ecdfc49258fc33818ac4da1742.png",
     decimals: 18,
@@ -19,8 +19,8 @@ export const tokens = [
     address: "0x6C62F8a8deDd262beA9351C9bCAA56ADC558d05D",
   },
   {
-    name: "Mike",
-    symbol: "MKT",
+    name: "premium",
+    symbol: "PMT",
     logoUrl:
       "https://photos.pinksale.finance/file/pinksale-logo-upload/1687352048919-2c4552ecdfc49258fc33818ac4da1742.png",
     decimals: 18,
@@ -36,8 +36,8 @@ export const tokens = [
     chainId: 56,
   },
   {
-    name: "Mike",
-    symbol: "MKT",
+    name: "premium",
+    symbol: "PMT",
     logoUrl:
       "https://photos.pinksale.finance/file/pinksale-logo-upload/1687352048919-2c4552ecdfc49258fc33818ac4da1742.png",
     decimals: 18,
@@ -85,8 +85,8 @@ export const MKT_MANNET = new ERC20Token(
   ChainId.BSC,
   "0xf542ac438cf8cd4477a1fc7ab88adda5426d55ed",
   18,
-  "MKT",
-  "MKT",
+  "PMT",
+  "PMT",
   "https://miketoken.io/"
 );
 
@@ -94,12 +94,12 @@ export const MKT_TESTNET = new ERC20Token(
   ChainId.BSC_TESTNET,
   "0x6C62F8a8deDd262beA9351C9bCAA56ADC558d05D",
   18,
-  "MKT",
-  "MKT",
+  "PMT",
+  "PMT",
   "https://miketoken.io/"
 );
 
-export const MKT = {
+export const PMT = {
   [ChainId.BSC]: MKT_MANNET,
   [ChainId.BSC_TESTNET]: MKT_TESTNET,
 };

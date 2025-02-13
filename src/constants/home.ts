@@ -48,7 +48,7 @@ export const listTokenomics = [
 export const listHowToBuyTokens = [
   {
     title: "Go to Buy page",
-    description: `Click on 'Buy MKT' button to enter the buy page`,
+    description: `Click on 'Buy PMT' button to enter the buy page`,
     image: "/images/buy-page.svg",
   },
   {
@@ -58,13 +58,13 @@ export const listHowToBuyTokens = [
   },
   {
     title: "Choose the pairs to swap",
-    description: `Choose the token you want to pay. Then, find MKT token in the list or add it manually by entering MKT address`,
+    description: `Choose the token you want to pay. Then, find PMT token in the list or add it manually by entering PMT address`,
     image: "/images/choose-pair-swap.svg",
   },
   {
-    title: "Buy MKT token",
-    description: `Push the Swap button, confirm the transaction and you have the MKT in your wallet`,
-    image: "/images/buy-mkt.svg",
+    title: "Buy PMT token",
+    description: `Push the Swap button, confirm the transaction and you have the PMT in your wallet`,
+    image: "/images/buy-PMT.svg",
   },
 ];
 

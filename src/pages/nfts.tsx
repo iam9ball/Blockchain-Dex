@@ -9,7 +9,10 @@ import { Typography } from "@src/components/Typography";
 const Nfts = () => {
   return (
     <>
-      <Meta title="NFT: Welcome to the captivating world of Mike Token NFTs" description="" />
+      <Meta
+        title="NFT: Welcome to the captivating world of premium Token NFTs"
+        description=""
+      />
       <Box minHeight={"100vh"}>
         <NFTPage />
         {/* <ComingSoonPage /> */}

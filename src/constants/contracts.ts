@@ -15,7 +15,7 @@ export default {
     [ChainId.BSC_TESTNET]: "0x59ac232dfc668bcf34c447649420e14c54fffd3d",
     [ChainId.BSC]: "0x59ac232dfc668bcf34c447649420e14c54fffd3d",
   },
-  mkt: {
+  PMT: {
     [ChainId.BSC_TESTNET]: "0x6C62F8a8deDd262beA9351C9bCAA56ADC558d05D",
     [ChainId.BSC]: "0xf542ac438cf8cd4477a1fc7ab88adda5426d55ed",
   },
