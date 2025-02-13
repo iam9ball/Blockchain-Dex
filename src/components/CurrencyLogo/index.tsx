@@ -3,7 +3,10 @@ import Image from "next/image";
 import { useEffect, useMemo, useState } from "react";
 import { useWeb3React } from "@src/hooks/useWeb3React";
 import { getAddress } from "@src/utils/address.utils";
-import { getTokenLogoURL, unknownTokenLogoURL } from "@src/utils/getCurrencyLogo";
+import {
+  getTokenLogoURL,
+  unknownTokenLogoURL,
+} from "@src/utils/getCurrencyLogo";
 
 interface ICurrencyLogo {
   currency?: Token;
@@ -20,7 +23,7 @@ const CurrencyLogo: React.FC<ICurrencyLogo> = ({
 }) => {
   const { chainId } = useWeb3React();
   const src: string = useMemo(() => {
-    const mkt = "0xf542ac438cf8cd4477a1fc7ab88adda5426d55ed"
+    const PMT = "0xf542ac438cf8cd4477a1fc7ab88adda5426d55ed";
     if (currency) {
       let address = currency?.address || "";
       if (typeof address !== "string") {
@@ -30,7 +33,7 @@ const CurrencyLogo: React.FC<ICurrencyLogo> = ({
       if (
         currency?.symbol.toLowerCase() === "glr" ||
         currency?.name?.toLowerCase() === "glr" ||
-        address?.toLowerCase() === mkt.toLowerCase()
+        address?.toLowerCase() === PMT.toLowerCase()
       ) {
         return "/icons/single.svg";
       }
