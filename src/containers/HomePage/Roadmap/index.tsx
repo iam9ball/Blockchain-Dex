@@ -14,9 +14,9 @@ const Roadmap: React.FC = () => {
       endTime: "2023-09-30",
       contentOne: "Decentralized Finance (DeFi)",
       contentTwo:
-        "Staking: Launch of staking platform. An MKT rewarding pool where users can stake their premium tokens and harvest more MKT. Introduce of a unique USDT rewarding pool where users can stake their MKT and harvest USDT. Note: The reward of this pool will be provided by CoinAI Trading Protocol.",
+        "Staking: Launch of staking platform. An MKT rewarding pool where users can stake their Premium tokens and harvest more MKT. Introduce of a unique USDT rewarding pool where users can stake their MKT and harvest USDT. Note: The reward of this pool will be provided by CoinAI Trading Protocol.",
       contentThree:
-        "Farms : Launch of premium Token's farming platform, allowing users to stake their tokens and earn rewards. Introduce of initial farming pools with attractive APYs to incentivize participation. Conduct thorough audits and security checks to ensure the safety of users' funds.",
+        "Farms : Launch of Premium Token's farming platform, allowing users to stake their tokens and earn rewards. Introduce of initial farming pools with attractive APYs to incentivize participation. Conduct thorough audits and security checks to ensure the safety of users' funds.",
     },
     {
       name: "q2",
@@ -27,17 +27,17 @@ const Roadmap: React.FC = () => {
       contentOne:
         "Expanding Farming Horizons: Expanding the selection of farming pools, if necessary introducing new pairs and innovative staking options. ",
       contentTwo:
-        "Engaging in strategic partnerships to bring exclusive farming opportunities to the premium Token community.",
+        "Engaging in strategic partnerships to bring exclusive farming opportunities to the Premium Token community.",
       contentThree:
-        "NFT : Launch of the premium Token special edition NFTs and based on the team’s decision possibly an NFT Marketplace, providing a platform for creators to mint and sell unique digital NFTs and assets.",
+        "NFT : Launch of the Premium Token special edition NFTs and based on the team’s decision possibly an NFT Marketplace, providing a platform for creators to mint and sell unique digital NFTs and assets.",
       contentFourth:
-        " Collaboration with talented artists to curate a diverse collection of premium - themed NFTs. Implementing a user-friendly interface for seamless buying, selling, and trading of NFTs.",
+        " Collaboration with talented artists to curate a diverse collection of Premium - themed NFTs. Implementing a user-friendly interface for seamless buying, selling, and trading of NFTs.",
       contentFifth:
         "Artistic Expressions: Organizing NFT drops and collaborations with prominent artists, celebrities, and brands to expand the range of collectibles. ",
       contentSixth:
         "Engaging and collaborating with OpenSea for the marketplace functionality with advanced search and discovery features, enabling users to find their desired NFTs and to make seamless NFT transactions.",
       contentSeventh:
-        " Introducing Passive Income elements to the premium NFTs, offering interactive experiences and rewards tied to the premium special NFTs.",
+        " Introducing Passive Income elements to the Premium NFTs, offering interactive experiences and rewards tied to the Premium special NFTs.",
     },
     {
       name: "q3",
@@ -61,7 +61,7 @@ const Roadmap: React.FC = () => {
       contentOne:
         "DeFi Innovations: Further expansion of the range of farming pools, incorporating new tokens and innovative staking mechanisms.",
       contentTwo:
-        " Implementing cross-chain compatibility, allowing users to farm and stake their premium Tokens on multiple blockchain networks. Introduction of AI yield optimization strategies and automated farming tools, such as bots and apps to enhance user returns.",
+        " Implementing cross-chain compatibility, allowing users to farm and stake their Premium Tokens on multiple blockchain networks. Introduction of AI yield optimization strategies and automated farming tools, such as bots and apps to enhance user returns.",
       contentThree:
         "Governance Platform: In our continual quest to create a more interactive and user-driven network, our next major step will be launching the Governance Platform. This will be a comprehensive, blockchain-based system that allows for transparent decision-making across our network. Stakeholders will be able to participate directly in the decision-making process, helping to shape the future of our organization. Through this platform, each voice will be heard, and every idea will be valued, fostering a true sense of collective ownership and accountability. By integrating state-of-the-art voting and discussion features, our Governance Platform will empower our community like never before to drive innovation, co-create, and directionally steer the path forward.",
     },
@@ -101,7 +101,7 @@ const Roadmap: React.FC = () => {
             Innovation Unleashed. Future Driven.
           </Typography>
           <Typography type="paragraph1" className="text-read">
-            Embark on an exciting roadmap with premium Token: Innovations and
+            Embark on an exciting roadmap with Premium Token: Innovations and
             milestones shaping our future.
           </Typography>
         </div>

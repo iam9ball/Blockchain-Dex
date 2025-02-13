@@ -67,7 +67,7 @@ const FarmPage: React.FC = () => {
     //   pid: 1,
     //   stakedSymbol: "LP",
     //   isClassic: false,
-    //   title: "premium-USDT",
+    //   title: "Premium-USDT",
     //   symbol: "USDT",
     //   // LP with farm
     //   tokenAddress: {
@@ -100,7 +100,7 @@ const FarmPage: React.FC = () => {
       pid: 0,
       stakedSymbol: "MKT",
       isClassic: true,
-      title: "premium Boost",
+      title: "Premium Boost",
       symbol: "USDT",
       // LP with farm
       tokenAddress: {
@@ -133,7 +133,7 @@ const FarmPage: React.FC = () => {
       pid: 1,
       stakedSymbol: "MKT-BNB LP",
       isClassic: false,
-      title: "premium LP Boost",
+      title: "Premium LP Boost",
       symbol: "MKT",
       // LP with farm
       tokenAddress: {

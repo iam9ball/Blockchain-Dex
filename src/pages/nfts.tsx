@@ -10,7 +10,7 @@ const Nfts = () => {
   return (
     <>
       <Meta
-        title="NFT: Welcome to the captivating world of premium Token NFTs"
+        title="NFT: Welcome to the captivating world of Premium Token NFTs"
         description=""
       />
       <Box minHeight={"100vh"}>

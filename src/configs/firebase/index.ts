@@ -7,9 +7,9 @@ import { initializeApp } from "firebase/app";// TODO: Add SDKs for Firebase prod
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: "AIzaSyDiyvPS5HbaaTzEr_d7HtEkrLbmFMYuPbQ",
-  authDomain: "premium-14f7b.firebaseapp.com",
-  projectId: "premium-14f7b",
-  storageBucket: "premium-14f7b.appspot.com",
+  authDomain: "Premium-14f7b.firebaseapp.com",
+  projectId: "Premium-14f7b",
+  storageBucket: "Premium-14f7b.appspot.com",
   messagingSenderId: "598207532414",
   appId: "1:598207532414:web:f7f131d3d04376aa4d772f",
   measurementId: "G-H8NS4K6P07"

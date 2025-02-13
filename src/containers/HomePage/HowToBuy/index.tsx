@@ -94,7 +94,7 @@ const HowToBuy: React.FC = () => {
                   color={"text.brand"}
                   textAlign={"center"}
                 >
-                  $MKT
+                  $PMT
                 </Typography>
               </Flex>
             </Flex>

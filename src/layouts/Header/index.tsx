@@ -86,11 +86,7 @@ export const Header = () => {
               alignContent={"center"}
             >
               <Image
-                src="/icons/project_name.svg"
-                alt="logo"
-                width={141}
-                height={28}
-              />
+                src="/icons/project_nam
             </Flex>
           </Flex>
           <Features />   
@@ -131,12 +127,7 @@ export const Header = () => {
                 width={40}
                 height={40}
               />
-              <Image
-                src="/icons/project_name.svg"
-                alt="logo"
-                width={141}
-                height={28}
-              />
+              
             </Flex>
           </DrawerHeader>
           <DrawerBody px="0">

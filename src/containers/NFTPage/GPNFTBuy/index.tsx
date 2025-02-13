@@ -178,7 +178,7 @@ if(NFTSuccess){
             Benefit:          
           </Typography>
           <Typography type="body1" color="text.read" mb="8px">
-            Holders of Generation Prime NFTs enjoy exclusive benefits such as extra $MKT tokens as a bonus with each MKT purchase, tax exemption on deposits made to CoinAI Pools, extra CoinAI Pool deposit allowance of up to 20,000 USDT, governance vote power, access to private social channels, and vanity profile pictures and Discord role.
+            Holders of Generation Prime NFTs enjoy exclusive benefits such as extra $PMT tokens as a bonus with each MKT purchase, tax exemption on deposits made to CoinAI Pools, extra CoinAI Pool deposit allowance of up to 20,000 USDT, governance vote power, access to private social channels, and vanity profile pictures and Discord role.
           </Typography>
         </Flex>
 

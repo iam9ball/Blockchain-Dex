@@ -73,14 +73,7 @@ export const Footer = () => {
             }}
           >
             <Image src="/icons/logo.svg" alt="logo" width={38} height={38} />
-            <Flex alignContent={"center"}>
-              <Image
-                src="/icons/project_name.svg"
-                alt="logo"
-                width={141}
-                height={28}
-              />
-            </Flex>
+            <Flex alignContent={"center"}></Flex>
           </Flex>
           <Flex
             display={{
@@ -160,11 +153,11 @@ export const Footer = () => {
         </Flex>
         <Divider color={"#222736"} my={"1.5em"} />
         <Typography color={"text.secondary"} type="body2" textAlign={"center"}>
-          Disclaimer: premium Token project is not related to the Monsters
+          Disclaimer: Premium Token project is not related to the Monsters
           movies. We simply admire the characters.
         </Typography>
         <Typography color={"text.secondary"} type="body2" textAlign={"center"}>
-          Copyright © 2023 MikeToken
+          Copyright © 2023 PremiumToken
         </Typography>
       </Box>
     </Flex>

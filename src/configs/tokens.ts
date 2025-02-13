@@ -10,7 +10,7 @@ export const getTokenBySymbol = (symbol: string, chainId = 56) => {
 
 export const tokens = [
   {
-    name: "premium",
+    name: "Premium",
     symbol: "PMT",
     logoUrl:
       "https://photos.pinksale.finance/file/pinksale-logo-upload/1687352048919-2c4552ecdfc49258fc33818ac4da1742.png",
@@ -19,7 +19,7 @@ export const tokens = [
     address: "0x6C62F8a8deDd262beA9351C9bCAA56ADC558d05D",
   },
   {
-    name: "premium",
+    name: "Premium",
     symbol: "PMT",
     logoUrl:
       "https://photos.pinksale.finance/file/pinksale-logo-upload/1687352048919-2c4552ecdfc49258fc33818ac4da1742.png",
@@ -36,7 +36,7 @@ export const tokens = [
     chainId: 56,
   },
   {
-    name: "premium",
+    name: "Premium",
     symbol: "PMT",
     logoUrl:
       "https://photos.pinksale.finance/file/pinksale-logo-upload/1687352048919-2c4552ecdfc49258fc33818ac4da1742.png",

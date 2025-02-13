@@ -3,7 +3,7 @@
  */
 
 const tokens = {
-  premium: {
+  Premium: {
     symbol: "PMT",
     address: {
       56: "0xf542ac438cf8cd4477a1fc7ab88adda5426d55ed",

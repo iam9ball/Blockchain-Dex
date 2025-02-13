@@ -305,7 +305,7 @@
   },
   {
     "inputs": [],
-    "name": "premium",
+    "name": "Premium",
     "outputs": [
       { "internalType": "contract IMikeToken", "name": "", "type": "address" }
     ],

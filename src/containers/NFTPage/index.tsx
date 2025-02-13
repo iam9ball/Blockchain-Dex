@@ -11,7 +11,6 @@ import Yield from "./Yield";
 import WalletList from "./WalletList";
 const NFTPage: React.FC = () => {
   const handleLinkLearnMore = () => {
-    window.open("https://miketoken-io.gitbook.io/miketoken.io/");
   };
   const router = useRouter();
   const handleBuyMkt = () => {

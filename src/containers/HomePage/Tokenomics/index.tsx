@@ -192,7 +192,7 @@ const Tokenomics: React.FC = () => {
             [TOKENOMICS]
           </Typography>
           <Typography mb="36px" mt="24px" type="paragraph1" color={"text.read"}>
-            Discover premium Tokenomics: Unveiling our ecosystem's potential.
+            Discover Premium Tokenomics: Unveiling our ecosystem's potential.
             From token allocation to liquidity strategies and rewarding
             opportunities, we revolutionize the blockchain landscape. Join us as
             we shape the future together.

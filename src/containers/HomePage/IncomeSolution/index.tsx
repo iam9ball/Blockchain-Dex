@@ -4,11 +4,10 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 const IncomeSolution = () => {
   const handleLinkLearnMore = () => {
-    window.open("https://miketoken-io.gitbook.io/miketoken.io/");
   };
   const router = useRouter();
   const handleBuyMkt = () => {
-    router.push("/swap");
+    router.push("/");
   };
   return (
     <Flex
@@ -79,7 +78,7 @@ const IncomeSolution = () => {
           lineHeight={"64px"}
           color="text.primary"
         >
-          Not just a Memecoin, premium is more...{" "}
+          Not just a Memecoin, Premium is more...{" "}
           {/* <Typography type="headline1" as="span" color="text.success">
             CoinAI
           </Typography> */}

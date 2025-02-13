@@ -10,7 +10,7 @@ export const bscTokens = {
     "0xf542ac438cf8cd4477a1fc7ab88adda5426d55ed",
     18,
     "PMT",
-    "premium Token",
+    "Premium Token",
     "https://miketoken.io/"
   ),
   wbnb: WBNB[ChainId.BSC],

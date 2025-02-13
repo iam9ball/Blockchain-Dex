@@ -77,12 +77,7 @@ const Community: React.FC = () => {
                             />
                           </div>
                           <div className="flex w-full">
-                            <Typography
-                              type="paragraph1"
-                              className="text-read w-fit"
-                            >
-                              {e.link}
-                            </Typography>
+                            
                           </div>
                         </div>
                       </div>

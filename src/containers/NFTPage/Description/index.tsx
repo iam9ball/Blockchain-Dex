@@ -78,7 +78,7 @@ const Description = () => {
           lineHeight={"64px"}
           color="text.primary"
         >
-          Welcome to the captivating world of premium Token NFTs{" "}
+          Welcome to the captivating world of Premium Token NFTs{" "}
           {/* <Typography type="headline1" as="span" color="text.success">
             CoinAI
           </Typography> */}

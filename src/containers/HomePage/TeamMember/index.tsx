@@ -14,7 +14,7 @@ const TeamMember: React.FC = () => {
       title: "CEO & Co-founder",
       avatar: "avt-edwin",
       linkedin: "",
-      info: "Edwin, the visionary CEO of premium Token, drives innovative solutions in DeFi, Gaming, and the Metaverse. His commitment and enthusiasm lead to unprecedented success in memecoins and blockchain.",
+      info: "Edwin, the visionary CEO of Premium Token, drives innovative solutions in DeFi, Gaming, and the Metaverse. His commitment and enthusiasm lead to unprecedented success in memecoins and blockchain.",
     },
     {
       name: "q2",
@@ -22,7 +22,7 @@ const TeamMember: React.FC = () => {
       title: "Co-founder & Marketing Manager",
       avatar: "avt-xilantrovo",
       linkedin: "https://www.linkedin.com/in/xilantrovo/",
-      info: "Xilantrovo, Co-founder and Marketing Manager of premium Token, drives growth and success in the cryptocurrency industry through his extensive marketing experience and expertise.",
+      info: "Xilantrovo, Co-founder and Marketing Manager of Premium Token, drives growth and success in the cryptocurrency industry through his extensive marketing experience and expertise.",
     },
     {
       name: "q3",
@@ -30,7 +30,7 @@ const TeamMember: React.FC = () => {
       title: "Co-founder & CTO",
       avatar: "avt-walter",
       linkedin: "https://www.linkedin.com/in/walterstewart2023/",
-      info: "Walter, Co-founder and CTO of premium Token, brings vast experience in blockchain technology. His expertise drives premium Token's position as a leading memecoin project.",
+      info: "Walter, Co-founder and CTO of Premium Token, brings vast experience in blockchain technology. His expertise drives Premium Token's position as a leading memecoin project.",
     },
     {
       name: "q4",
@@ -38,7 +38,7 @@ const TeamMember: React.FC = () => {
       title: "Co-founder & Head of Community",
       avatar: "avt-david",
       linkedin: "https://www.linkedin.com/in/david-crpo-0a916427a/",
-      info: "David, Co-founder and Head of Community at premium Token, utilizes his experience to drive project success. With a user-centric approach and strategic vision, he fosters engagement and facilitates growth for the project.",
+      info: "David, Co-founder and Head of Community at Premium Token, utilizes his experience to drive project success. With a user-centric approach and strategic vision, he fosters engagement and facilitates growth for the project.",
     },
   ];
 
@@ -94,7 +94,7 @@ const TeamMember: React.FC = () => {
             Meet our Team
           </Typography>
           <Typography type="paragraph1" className="text-read">
-            Meet the talented team driving the success of premium Token.
+            Meet the talented team driving the success of Premium Token.
           </Typography>
         </div>
         <div className="flex w-5/12 max-lg:w-full max-lg:mt-[24px] max-lg:justify-start justify-end"></div>

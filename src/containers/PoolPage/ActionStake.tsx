@@ -362,15 +362,9 @@ const ActionStake: React.FC<ActionStakeProps> = ({
               checked={acceptRule}
               onChange={() => setAcceptRule(!acceptRule)}
             >
-              <Link
-                sx={{
-                  color: "white",
-                }}
-                href="https://miketoken-io.gitbook.io/miketoken.io/terms-and-conditions/disclaimer"
-                target="_blank"
-              >
+              <div>
                 I agree to your Terms and Conditions
-              </Link>
+              </div>
             </Checkbox>
             <Flex w="100%" mt="24px" justify={"space-between"}>
               <Button
