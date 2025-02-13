@@ -85,8 +85,7 @@ export const Header = () => {
               }}
               alignContent={"center"}
             >
-              <Image
-                src="/icons/project_nam
+              
             </Flex>
           </Flex>
           <Features />   
